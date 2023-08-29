@@ -4,16 +4,26 @@ This is a React-based website for a book-related platform. The website utilizes 
 
 ## Project Structure
 
-The main code for the application can be found in the `App.jsx` file. The project structure is organized as follows:
+The project directory is structured as follows:
 
-- `Navbar.jsx`: Component for the navigation bar.
-- `Pages/`
-  - `Home.jsx`: Home page component.
-  - `Library.jsx`: Library page component.
-  - `Blog.jsx`: Blog page component.
-  - `MyList.jsx`: MyList page component.
-- `App.css`: Stylesheet for the application.
-- `index.js`: Entry point for the React application.
+- `public/`: Directory containing logo & background. 
+- `src/`: Source code directory.
+  - `App.css`: Stylesheet for the application.
+  - `App.jsx`: Main application component.
+  - `Navbar.jsx`: Component for the navigation bar.
+  - `index.css`: Index stylesheet.
+  - `index.html`: Index HTML file.
+  - `main.jsx`: Main entry point for the application.
+  - `Pages/`: Directory containing page components.
+    - `Home.jsx`: Home page component.
+    - `AddTodo.jsx`: Adds selected books to `MyList.jsx`, from `Library.jsx`.
+    - `Library.jsx`: Library page component.
+    - `Blog.jsx`: Blog page component.
+    - `MyList.jsx`: MyList page component.
+  - `blogs/`: Directory for blog-related content.
+  - `books/`: Directory for book-related content.
+  - `welcome/`: Directory for welcome-related content.
+
 
 ## Getting Started
 
@@ -32,10 +42,15 @@ The main code for the application can be found in the `App.jsx` file. The projec
 
 ## Dependencies
 
-- React
-- React Router
-- Material-UI (assuming it's used for styling based on the class name `ag-theme-material`)
-- Other dependencies as specified in your `package.json` file.
+- `@emotion/react`: ^11.11.1
+- `@emotion/styled`: ^11.11.0
+- `@mui/icons-material`: ^5.14.6
+- `@mui/material`: ^5.14.6
+- `ag-grid-community`: ^30.1.0
+- `ag-grid-react`: ^30.1.0
+- `react`: ^18.2.0
+- `react-dom`: ^18.2.0
+- `react-router-dom`: ^6.15.0
 
 
 ## License
