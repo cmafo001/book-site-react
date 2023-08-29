@@ -1,6 +1,6 @@
 # book-site-react
 
-This is a React-based website for a book-related platform. The website utilizes React Router for navigation and lazy loading of components. It features several pages including Home, Library, Blog, and MyList. The UI layout includes a navigation bar and a footer displaying the current date. site is live at https://cmafo001.github.io/book-site-react/
+This is a React-based website for a book-related platform. The website utilizes React Router for navigation and lazy loading of components. It features several pages including Home, Library, Blog, and MyList. The UI layout includes a navigation bar and a footer displaying the current date. Site is live at https://cmafo001.github.io/book-site-react/
 
 ## Project Structure
 
