@@ -2,7 +2,7 @@
 
 This is a React-based website for a book-related platform. The website utilizes React Router for navigation and lazy loading of components. It features several pages including Home, Library, Blog, and MyList. The UI layout includes a navigation bar and a footer displaying the current date. 
 
-Site is live at https://cmafo001.github.io/book-site-react/
+You can explore the live site at https://cmafo001.github.io/book-site-react/
 
 ## Pages
 
@@ -11,11 +11,7 @@ Site is live at https://cmafo001.github.io/book-site-react/
 - **Blog Page**: Showcases blog posts related to books.
 - **MyList Page**: Allows users to manage their reading lists.
 
-## Project Structure
-
-The project directory is structured as follows:
-
-# Folder Structure
+### Folder Structure
 
 | Directory                  | Description                                      |
 | -------------------------- | ------------------------------------------------ |
@@ -44,9 +40,9 @@ The project directory is structured as follows:
 
 The application integrates with Firebase for storing and managing data related to books. Firebase Realtime Database is utilized for this purpose. The following components interact with Firebase:
 
-Library.jsx: This page lists available books and allows users to add them to their personal list. It interacts with the Firebase Realtime Database to add books to the user's collection.
+* Library.jsx: This page lists available books and allows users to add them to their personal list. It interacts with the Firebase Realtime Database to add books to the user's collection.
 
-MyList.jsx: This page displays the user's personal list of books and allows them to remove items. It interacts with the Firebase Realtime Database to retrieve and remove books from the user's collection.
+* MyList.jsx: This page displays the user's personal list of books and allows them to remove items. It interacts with the Firebase Realtime Database to retrieve and remove books from the user's collection.
 
 ## Dependencies
 
