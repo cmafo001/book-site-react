@@ -15,23 +15,28 @@ Site is live at https://cmafo001.github.io/book-site-react/
 
 The project directory is structured as follows:
 
-- `public/`: Directory containing logo & background. 
-- `src/`: Source code directory.
-  - `App.css`: Stylesheet for the application.
-  - `App.jsx`: Main application component.
-  - `Navbar.jsx`: Component for the navigation bar.
-  - `index.css`: Index stylesheet.
-  - `index.html`: Index HTML file.
-  - `main.jsx`: Main entry point for the application.
-  - `Pages/`: Directory containing page components.
-    - `Home.jsx`: Home page component.
-    - `AddTodo.jsx`: Adds selected books to `MyList.jsx`, from `Library.jsx`.
-    - `Library.jsx`: Library page component.
-    - `Blog.jsx`: Blog page component.
-    - `MyList.jsx`: MyList page component.
-  - `blogs/`: Directory for blog-related content.
-  - `books/`: Directory for book-related content.
-  - `welcome/`: Directory for welcome-related content.
+# Folder Structure
+
+| Directory                  | Description                                      |
+| -------------------------- | ------------------------------------------------ |
+| `public/`                  | Directory containing logo & background.         |
+| `src/`                     | Source code directory.                           |
+|   ├── `App.css`            | Stylesheet for the application.                  |
+|   ├── `App.jsx`            | Main application component.                      |
+|   ├── `Navbar.jsx`         | Component for the navigation bar.               |
+|   ├── `index.css`          | Index stylesheet.                                |
+|   ├── `index.html`         | Index HTML file.                                 |
+|   ├── `main.jsx`           | Main entry point for the application.           |
+|   ├── `Pages/`             | Directory containing page components.            |
+|   │   ├── `Home.jsx`       | Home page component.                            |
+|   │   ├── `AddTodo.jsx`    | Adds selected books to `MyList.jsx`, from `Library.jsx`. |
+|   │   ├── `Library.jsx`    | Library page component.                         |
+|   │   ├── `Blog.jsx`       | Blog page component.                            |
+|   │   ├── `MyList.jsx`     | MyList page component.                          |
+|   ├── `blogs/`             | Directory for blog-related content.              |
+|   ├── `books/`             | Directory for book-related content.              |
+|   ├── `welcome/`           | Directory for welcome-related content.           |
+
 
 
 
@@ -45,19 +50,18 @@ MyList.jsx: This page displays the user's personal list of books and allows them
 
 ## Dependencies
 
-+------------------------+------------------------+
-|     Dependency         |      Version           |
-+------------------------+------------------------+
-| @emotion/react         | ^11.11.1               |
-| @emotion/styled        | ^11.11.0               |
-| @mui/icons-material    | ^5.14.6                |
-| @mui/material          | ^5.14.6                |
-| ag-grid-community      | ^30.1.0                |
-| ag-grid-react          | ^30.1.0                |
-| react                  | ^18.2.0                |
-| react-dom              | ^18.2.0                |
-| react-router-dom       | ^6.15.0                |
-+------------------------+------------------------+
+| Dependency            | Version    |
+|-----------------------|------------|
+| @emotion/react        | ^11.11.1   |
+| @emotion/styled       | ^11.11.0   |
+| @mui/icons-material  | ^5.14.6    |
+| @mui/material         | ^5.14.6    |
+| ag-grid-community     | ^30.1.0    |
+| ag-grid-react         | ^30.1.0    |
+| react                 | ^18.2.0    |
+| react-dom             | ^18.2.0    |
+| react-router-dom      | ^6.15.0    |
+
 
 
 ## License
